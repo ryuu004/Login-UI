@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MyFrame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="43" y="98" width="658" height="486"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="600" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="67bd8" binding="panel2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+          <focusable value="false"/>
+          <foreground color="-4473925"/>
+          <preferredSize width="300" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4dfe6" binding="title" layout-manager="FlowLayout" hgap="5" vgap="30" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-721665"/>
+              <preferredSize width="300" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d80b0" class="javax.swing.JLabel" binding="login">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <enabled value="true"/>
+                  <focusable value="true"/>
+                  <font name="Arial Black" size="14"/>
+                  <foreground color="-16777216"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <opaque value="false"/>
+                  <text value="Welcome User"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9b59e" binding="google" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <background color="-3026479"/>
+              <enabled value="false"/>
+              <foreground color="-721665"/>
+              <minimumSize width="0" height="0"/>
+              <preferredSize width="200" height="26"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="65208" class="javax.swing.JButton" binding="logInWithGoogleButton" default-binding="true">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-3026479"/>
+                  <borderPainted value="true"/>
+                  <focusable value="false"/>
+                  <font name="Arial" size="11"/>
+                  <foreground color="-16777216"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="200" height="30"/>
+                  <text value="Log in with Google"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="37dd0" binding="spacer" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <background color="-721665"/>
+              <enabled value="false"/>
+              <foreground color="-721665"/>
+              <minimumSize width="0" height="0"/>
+              <preferredSize width="200" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="bac53" binding="email" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <enabled value="false"/>
+              <foreground color="-721665"/>
+              <minimumSize width="0" height="0"/>
+              <preferredSize width="200" height="50"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="83eca" class="javax.swing.JLabel" binding="emailad">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <enabled value="true"/>
+                  <font name="Arial" size="11"/>
+                  <foreground color="-16777216"/>
+                  <preferredSize width="200" height="13"/>
+                  <text value="Email Address: "/>
+                </properties>
+              </component>
+              <component id="35a52" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <horizontalAlignment value="10"/>
+                  <minimumSize width="49" height="25"/>
+                  <preferredSize width="200" height="19"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="8d6b1" binding="Password" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <enabled value="false"/>
+              <foreground color="-721665"/>
+              <minimumSize width="0" height="0"/>
+              <preferredSize width="200" height="50"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="fa5f0" class="javax.swing.JLabel" binding="pass">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <enabled value="true"/>
+                  <font name="Arial" size="11"/>
+                  <foreground color="-16777216"/>
+                  <preferredSize width="200" height="13"/>
+                  <text value="Password: "/>
+                </properties>
+              </component>
+              <component id="a8c85" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <horizontalAlignment value="10"/>
+                  <minimumSize width="49" height="25"/>
+                  <preferredSize width="200" height="19"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c36a8" binding="check" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <enabled value="false"/>
+              <foreground color="-721665"/>
+              <minimumSize width="0" height="0"/>
+              <preferredSize width="200" height="40"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="59a1d" class="javax.swing.JCheckBox" binding="rememberMeCheckBox" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Arial" size="8"/>
+                  <foreground color="-16777216"/>
+                  <hideActionText value="false"/>
+                  <horizontalAlignment value="10"/>
+                  <iconTextGap value="2"/>
+                  <preferredSize width="90" height="30"/>
+                  <requestFocusEnabled value="false"/>
+                  <text value="Remember me"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="a8ba7" class="javax.swing.JLabel" binding="forgot">
+                <constraints/>
+                <properties>
+                  <alignmentX value="0.0"/>
+                  <alignmentY value="0.0"/>
+                  <font name="Arial" size="8"/>
+                  <foreground color="-883482"/>
+                  <iconTextGap value="8"/>
+                  <preferredSize width="96" height="11"/>
+                  <text value="Forgot your password?"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="a92fa" class="javax.swing.JButton" binding="LoginBtn">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-3026479"/>
+              <focusable value="false"/>
+              <font name="Arial" size="11"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <label value="Log in"/>
+              <preferredSize width="200" height="30"/>
+              <text value="Log in"/>
+            </properties>
+          </component>
+          <grid id="48e70" binding="NoAcc" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <enabled value="false"/>
+              <foreground color="-721665"/>
+              <minimumSize width="0" height="0"/>
+              <preferredSize width="200" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7fdbd" class="javax.swing.JLabel" binding="noacc">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <font name="Arial" size="10"/>
+                  <foreground color="-16777216"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Dont have an account yet? Sign up"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="7587a" class="javax.swing.JLabel" binding="photo">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-1"/>
+          <horizontalAlignment value="0"/>
+          <icon value="img.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
