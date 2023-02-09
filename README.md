@@ -4,4 +4,4 @@ Log-in design for applications.
 
 ---
 ### IDE
-Intellij (Java GUI FORM)
+Intellij (Java GUI Form)
